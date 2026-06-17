@@ -1,18 +1,14 @@
 package entities;
 
 public class Room {
-    private int [] quartos = new int[10];
+    
     private String name;
     private String email;
     
-    public Room(int [] quartos, String name, String email) {
+    public Room( String name, String email) {
         this.name = name;
         this.email = email;
-        this.quartos = quartos;
-    }
-
-    public int[] getQuartos() {
-        return quartos;
+        
     }
 
     public String getName() {
@@ -30,10 +26,4 @@ public class Room {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    public void setQuartos(int[] quartos) {
-        this.quartos = quartos;
-    }
-
-    
 }
