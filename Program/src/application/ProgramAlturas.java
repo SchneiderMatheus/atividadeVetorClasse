@@ -25,6 +25,8 @@ public class ProgramAlturas {
 
             lista[i] = new Pessoas(name, age, idade);
         }
+        double media = 0;
+        
         
         sc.close();
     }
