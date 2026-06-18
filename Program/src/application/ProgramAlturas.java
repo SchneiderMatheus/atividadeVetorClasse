@@ -25,8 +25,11 @@ public class ProgramAlturas {
 
             lista[i] = new Pessoas(name, age, idade);
         }
+        double soma =0;
         double media = 0;
-        
+        for (int i = 0; i < lista.length; i++) {
+            soma += lista[i].getAltura();
+        }
         
         sc.close();
     }
