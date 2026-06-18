@@ -26,9 +26,18 @@ public class ProgramAlturas {
             lista[i] = new Pessoas(name, age, idade);
         }
         double soma =0;
-        double media = 0;
+        double media= soma/n;
+        String nomes= " ";
+        int contador=0;
         for (int i = 0; i < lista.length; i++) {
             soma += lista[i].getAltura();
+        }
+        System.out.println("Altura média: "+media);
+        for (int i = 0; i < lista.length; i++) {
+            if (lista[i].getAge()<16) {
+                nomes += lista[i].getName();
+                contador ++;
+            }
         }
         
         sc.close();
