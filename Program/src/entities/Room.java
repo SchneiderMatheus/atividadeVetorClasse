@@ -28,6 +28,6 @@ public class Room {
     }
 
     public String toString(){
-        return getName()+" "+ getEmail();
+        return name+", "+ email;
     }
 }

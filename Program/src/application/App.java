@@ -34,11 +34,11 @@ public class App {
         System.out.println("Busy Rooms: ");
         for(int i=0; i<quartos.length; i++) {
             if (quartos[i] != null) {
-                System.out.println(i+": "+quartos[i].getName()+", "+ quartos[i].getEmail());
+                System.out.println(i+": "+quartos[i]);
             }
-
+            
         }
-
+        
         sc.close();
     }
 }
